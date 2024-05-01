@@ -6,7 +6,7 @@ function App() {
   function navigateToBuy() {
     navigate("buy")
   }
-  const [showBuy, setShowBuy] = useState(false)
+  const [showBuy, setShowBuy] = useState(true)
   function toggleText() {
     setShowBuy(!showBuy)
   }
